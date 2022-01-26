@@ -3,4 +3,4 @@ select
     user_id as customer_id,
     order_date,
     status
-from dbt.jaffle_shop.orders
+from dbt_db.jaffle_shop.orders
